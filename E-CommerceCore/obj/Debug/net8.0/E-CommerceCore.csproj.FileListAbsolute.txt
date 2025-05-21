@@ -1,0 +1,12 @@
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\bin\Debug\net8.0\E-CommerceCore.deps.json
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\bin\Debug\net8.0\E-CommerceCore.dll
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\bin\Debug\net8.0\E-CommerceCore.pdb
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.AssemblyInfo.cs
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.dll
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\refint\E-CommerceCore.dll
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.pdb
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\ref\E-CommerceCore.dll

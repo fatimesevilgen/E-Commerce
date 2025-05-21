@@ -1,0 +1,79 @@
+﻿@model E_CommerceCore.Entities.AppUser
+
+@{
+    ViewData["Title"] = "Kullanıcı Sil";
+    Layout = "_LayoutAdmin";
+}
+
+<h3>Bu kullanıcıyı silme işlemini onaylıyor musunuz?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SurName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SurName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsAdmin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsAdmin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserGuid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserGuid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatDate)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete" class="d-flex flex-column align-items-start gap-2">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Sil" class="btn btn-danger" /> 
+        <a asp-action="Index" class="btn btn-primary mt-3">Listeye Dön</a>
+    </form>
+</div>

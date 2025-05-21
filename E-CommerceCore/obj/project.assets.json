@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.SqlServer.Server/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.SqlServer.Server/1.0.0": {
+      "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
+      "type": "package",
+      "path": "microsoft.sqlserver.server/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet.png",
+        "lib/net46/Microsoft.SqlServer.Server.dll",
+        "lib/net46/Microsoft.SqlServer.Server.pdb",
+        "lib/net46/Microsoft.SqlServer.Server.xml",
+        "lib/netstandard2.0/Microsoft.SqlServer.Server.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Server.pdb",
+        "lib/netstandard2.0/Microsoft.SqlServer.Server.xml",
+        "microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+        "microsoft.sqlserver.server.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Microsoft.SqlServer.Server >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\E-Commerce\\E-CommerceCore\\E-CommerceCore.csproj",
+      "projectName": "E-CommerceCore",
+      "projectPath": "C:\\Users\\Asus\\source\\repos\\E-Commerce\\E-CommerceCore\\E-CommerceCore.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\source\\repos\\E-Commerce\\E-CommerceCore\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.SqlServer.Server": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
