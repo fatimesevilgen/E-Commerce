@@ -79,13 +79,14 @@ namespace E_CommerceData.Migrations
                         new
                         {
                             Id = 1,
-                            CreatDate = new DateTime(2025, 5, 20, 15, 59, 9, 75, DateTimeKind.Local).AddTicks(6574),
+                            CreatDate = new DateTime(2025, 5, 21, 19, 46, 7, 575, DateTimeKind.Local).AddTicks(5116),
                             Email = "admin@admin.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Admin",
                             Password = "123456*",
                             SurName = "User",
+                            UserGuid = new Guid("5859cc3c-0473-44a4-b9ab-b7a73dbb0732"),
                             UserName = "Admin"
                         });
                 });
@@ -168,7 +169,7 @@ namespace E_CommerceData.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2025, 5, 20, 15, 59, 9, 77, DateTimeKind.Local).AddTicks(6399),
+                            CreateDate = new DateTime(2025, 5, 21, 19, 46, 7, 577, DateTimeKind.Local).AddTicks(5066),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Elektronik",
@@ -178,7 +179,7 @@ namespace E_CommerceData.Migrations
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(2025, 5, 20, 15, 59, 9, 77, DateTimeKind.Local).AddTicks(6941),
+                            CreateDate = new DateTime(2025, 5, 21, 19, 46, 7, 577, DateTimeKind.Local).AddTicks(5736),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Bilgisayar",

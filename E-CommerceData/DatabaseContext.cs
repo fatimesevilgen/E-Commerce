@@ -1,5 +1,6 @@
 ﻿using E_CommerceCore.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using System.Reflection;
 
 
@@ -19,7 +20,8 @@ namespace E_CommerceData
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //(LocalDB)\MSSQLLocalDB -> bu server'a bağla
-            optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB; Database=ECommerceDb; Trusted_Connection=True; TrustServerCertificate=True"); 
+            optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB; Database=ECommerceDb; Trusted_Connection=True; TrustServerCertificate=True")
+                .ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning));
             base.OnConfiguring(optionsBuilder);
         }
 

@@ -10,3 +10,4 @@ C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-Commerce
 C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\refint\E-CommerceCore.dll
 C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.pdb
 C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\ref\E-CommerceCore.dll
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceCore\obj\Debug\net8.0\E-CommerceCore.sourcelink.json

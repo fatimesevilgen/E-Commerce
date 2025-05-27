@@ -17,3 +17,4 @@ C:\Users\Asus\source\repos\E-Commerce\E-CommerceService\obj\Debug\net8.0\refint\
 C:\Users\Asus\source\repos\E-Commerce\E-CommerceService\obj\Debug\net8.0\E-CommerceService.pdb
 C:\Users\Asus\source\repos\E-Commerce\E-CommerceService\obj\Debug\net8.0\E-CommerceService.genruntimeconfig.cache
 C:\Users\Asus\source\repos\E-Commerce\E-CommerceService\obj\Debug\net8.0\ref\E-CommerceService.dll
+C:\Users\Asus\source\repos\E-Commerce\E-CommerceService\obj\Debug\net8.0\E-CommerceService.sourcelink.json

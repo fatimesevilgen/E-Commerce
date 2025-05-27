@@ -21,7 +21,7 @@ namespace E_CommerceCore.Entities
         [Display(Name = "Admin Mi?")]
         public bool IsAdmin { get; set; }
         [ScaffoldColumn(false)] // oluşacak iskelet sayfalarında bu alan kullanılmaz
-        public Guid? UserGuid { get; set; }
+        public Guid? UserGuid { get; set; } = Guid.NewGuid();
         [Display(Name = "Kayıt Tarihi"), ScaffoldColumn(false)]
         public DateTime CreatDate { get; set; } = DateTime.Now;
     }

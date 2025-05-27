@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_CommerceData.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20250428125424_InitialCreate2")]
-    partial class InitialCreate2
+    [Migration("20250521164608_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -82,13 +82,14 @@ namespace E_CommerceData.Migrations
                         new
                         {
                             Id = 1,
-                            CreatDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatDate = new DateTime(2025, 5, 21, 19, 46, 7, 575, DateTimeKind.Local).AddTicks(5116),
                             Email = "admin@admin.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Admin",
                             Password = "123456*",
                             SurName = "User",
+                            UserGuid = new Guid("5859cc3c-0473-44a4-b9ab-b7a73dbb0732"),
                             UserName = "Admin"
                         });
                 });
@@ -119,6 +120,9 @@ namespace E_CommerceData.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("OrderNo")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -168,7 +172,7 @@ namespace E_CommerceData.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreateDate = new DateTime(2025, 5, 21, 19, 46, 7, 577, DateTimeKind.Local).AddTicks(5066),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Elektronik",
@@ -178,7 +182,7 @@ namespace E_CommerceData.Migrations
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreateDate = new DateTime(2025, 5, 21, 19, 46, 7, 577, DateTimeKind.Local).AddTicks(5736),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Bilgisayar",
@@ -322,6 +326,9 @@ namespace E_CommerceData.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
