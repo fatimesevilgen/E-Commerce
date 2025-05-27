@@ -13,3 +13,6 @@ Bu proje, modern bir e-ticaret uygulamasının temel işlevlerini sunmak amacıy
 ## Katkıda Bulunma
 
 Katkıda bulunmak için lütfen bir pull request gönderin.
+
+
+*GELİŞİM SÜRECİ DEVAM ETMEKTEDİR*
